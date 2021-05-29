@@ -10,7 +10,7 @@ The total six project will focus on different parellel techniques which we would
 
 ### Vectorizing Code Using Fake SIMD Intrinsics
 
-- Report
+- [Report](https://hackmd.io/@4Hw858MgTO-qILMEkncvEA/B1wuQQhvD)
 
 Take a look at the function clampedExpSerial in part1/main.cpp of the Assignment I code base. The clampedExp() function raises values[i] to the power given by exponents[i] for all elements of the input array and clamps the resulting values at 9.999999. Your job is to vectorize this piece of code so it can be run on a machine with SIMD vector instructions.
 
@@ -18,6 +18,12 @@ The output of the program will tell you if your implementation generates correct
 
 
 ## Hw2 [Multi-thread Programming](https://nctu-sslab.github.io/PP-f20//HW2/)
+
+This program produces the image file mandelbrot-serial.ppm, which is a visualization of a famous set of complex numbers called the Mandelbrot set. [Most platforms have a .ppm viewer. For example, to view the resulting images, use tiv command (already installed) to display them on the terminal.]
+
+As you can see in the images below, the result is a familiar and beautiful fractal. Each pixel in the image corresponds to a value in the complex plane, and the brightness of each pixel is proportional to the computational cost of determining whether the value is contained in the Mandelbrot set. To get image 2, use the command option --view 2. (See function mandelbrotSerial() defined in mandelbrotSerial.cpp). You can learn more about the definition of the Mandelbrot set.
+
+
 
 ## Hw3 [OpenMP Programming](https://nctu-sslab.github.io/PP-f20/HW3/)
 
