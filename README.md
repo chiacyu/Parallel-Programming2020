@@ -60,4 +60,4 @@ Convolution is a common operation in image processing. It is used for blurring, 
 
 Figure 1 shows an illustration of the concept of applying a convolution filter to a specific pixel, value of which is 3. After the convolution process, the value of the pixel becomes 7—how the resulting value is computed is illustrated on the right of the figure.
 
-![Convolution]https://user-images.githubusercontent.com/18013815/101978949-f7c9f900-3c93-11eb-8cc8-9b99db425b01.png
+![Convolution](https://user-images.githubusercontent.com/18013815/101978949-f7c9f900-3c93-11eb-8cc8-9b99db425b01.png)
